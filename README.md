@@ -14,5 +14,26 @@
 # timing
 time julia -e ""
 
- 
- 
+# to read
+https://github.com/julia-vscode/LanguageServer.jl
+https://github.com/FluxML/MacroTools.jl
+https://github.com/IBM/AutoMLPipeline.jl
+https://github.com/invenia/PkgTemplates.jl
+https://github.com/chriselrod/LoopVectorization.jl
+https://github.com/JuliaLang/PackageCompiler.jl
+https://github.com/svaksha/pythonidae
+https://github.com/JuliaLang/julia
+https://github.com/svaksha/Julia.jl
+https://github.com/PhilipVinc/TensorBoardLogger.jl
+
+
+# startup.jl
+
+if isfile("Project.toml") && isfile("Manifest.toml")
+	using Pkg
+	Pkg.activate(".")
+end
+
+# parallel update
+
+
