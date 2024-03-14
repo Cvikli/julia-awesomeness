@@ -1,0 +1,125 @@
+[submodule "Arithmetics"]
+	path = Arithmetics.jl
+	url = https://github.com/Cvikli/Arithmetics.jl.git
+	branch = master
+[submodule "AsyncTerminal"]
+	path = AsyncTerminal.jl
+	url = https://github.com/Cvikli/AsyncTerminal.jl
+	branch = master
+[submodule "BinanceAPI"]
+	path = BinanceAPI.jl
+	url = https://github.com/Cvikli/BinanceAPI.jl.git
+	branch = master
+	ignore = dirty
+[submodule "Boilerplate"]
+	path = Boilerplate.jl
+	url = https://github.com/Cvikli/Boilerplate.jl.git
+	branch = master
+[submodule "CryptoOHLCV"]
+	path = CryptoOHLCV.jl
+	url = https://github.com/Cvikli/CryptoOHLCV.jl.git
+	branch = master
+[submodule "EasyGrad"]
+	path = EasyGrad.jl
+	url = https://github.com/Cvikli/EasyGrad.jl.git
+	branch = master
+[submodule "EasyPrms"]
+	path = EasyPrms.jl
+	url = https://gitlab.com/SixZero/EasyPrms.jl.git
+	branch = master
+[submodule "ExtendableStruct"]
+	path = ExtendableStruct.jl
+	url = https://github.com/Cvikli/ExtendableStruct.jl.git
+	branch = master
+[submodule "HTTPUtils"]
+	path = HTTPUtils.jl
+	url = https://github.com/Cvikli/HTTPUtils.jl.git
+	branch = master
+[submodule "HwAllocator"]
+	path = HwAllocator.jl
+	url = https://github.com/Cvikli/HwAllocator.jl.git
+	branch = master
+[submodule "InitLoadableStruct"]
+	path = InitLoadableStruct.jl
+	url = https://github.com/Cvikli/InitLoadableStruct.jl.git
+	branch = master
+[submodule "JuliaMacroCheatSheet"]
+	path = JuliaMacroCheatSheet
+	url = https://github.com/Cvikli/JuliaMacroCheatSheet.git
+	branch = master
+[submodule "LazySortedArray"]
+	path = LazySortedArray.jl
+	url = https://github.com/Cvikli/LazySortedArray.jl.git
+	branch = master
+[submodule "Losses"]
+	path = Losses.jl
+	url = https://github.com/Cvikli/Losses.jl.git
+	branch = master
+[submodule "MemoizeTyped"]
+	path = MemoizeTyped.jl
+	url = https://github.com/Cvikli/MemoizeTyped.jl.git
+	branch = master
+[submodule "NamedColors"]
+	path = NamedColors.jl
+	url = https://github.com/Cvikli/NamedColors.jl.git
+	branch = master
+[submodule "Optimizers"]
+	path = Optimizers.jl
+	url = https://github.com/Cvikli/Optimizers.jl.git
+	branch = master
+[submodule "PersistableStruct"]
+	path = PersistableStruct.jl
+	url = https://github.com/Cvikli/PersistableStruct.jl.git
+	branch = master
+[submodule "PkgManager"]
+	path = PkgManager.jl
+	url = https://github.com/Cvikli/PkgManager.jl.git
+	branch = master
+[submodule "Pythonish"]
+	path = Pythonish.jl
+	url = https://github.com/Cvikli/Pythonish.jl.git
+	branch = master
+[submodule "RefClosures"]
+	path = RefClosures.jl
+	url = https://github.com/Cvikli/RefClosures.jl.git
+	branch = master
+[submodule "RelevanceStacktrace"]
+	path = RelevanceStacktrace.jl
+	url = https://github.com/Cvikli/RelevanceStacktrace.jl.git
+	branch = master
+[submodule "SendTG"]
+	path = SendTG
+	url = https://github.com/Cvikli/SendTG.jl.git
+	branch = master
+[submodule "SparseArrayVectors"]
+	path = SparseArrayVectors.jl
+	url = https://github.com/Sixzero/SparseArrayVectors.jl.git 
+	branch = master
+[submodule "Tracker"]
+	path = Tracker.jl
+	url = https://github.com/Cvikli/Tracker.jl.git
+	branch = master
+[submodule "Tensors"]
+	path = Tensors.jl
+	url = https://github.com/Cvikli/Tensors.jl.git
+	branch = master
+[submodule "UnicodePlotsSimple"]
+	path = UnicodePlotsSimple.jl
+	url = https://github.com/Cvikli/UnicodePlotsSimple.jl.git
+	branch = master
+[submodule "Unimplemented"]
+	path = Unimplemented.jl
+	url = https://github.com/Cvikli/Unimplemented.jl.git
+	branch = master
+[submodule "UniversalStruct"]
+	path = UniversalStruct.jl
+	url = https://github.com/Cvikli/UniversalStruct.jl.git
+	branch = master
+[submodule "Utils"]
+	path = Utils.jl
+	url = https://github.com/Cvikli/Utils.jl.git
+	branch = master
+[submodule "ZygoteExtensions"]
+	path = ZygoteExtensions.jl
+	url = https://github.com/SixZero/ZygoteExtensions.jl.git
+	branch = master
