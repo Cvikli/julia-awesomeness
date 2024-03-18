@@ -1,0 +1,6 @@
+name = "TestPKG"
+uuid = "face8fba-605c-446e-afeb-1a7926d8cb37"
+authors = ["Marcell <havlikmarcell@gmail.com>"]
+version = "0.1.0"
+
+[deps]
