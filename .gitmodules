@@ -87,10 +87,10 @@
 	path = RelevanceStacktrace.jl
 	url = https://github.com/Cvikli/RelevanceStacktrace.jl.git
 	branch = main
-[submodule "SendTG"]
-	path = SendTG
-	url = https://github.com/Cvikli/SendTG.jl.git
-	branch = main
+[submodule "TGSend"]
+	path = TGSend
+	url = git@github.com:Sixzero/TGSend.git
+	branch = master
 [submodule "SparseArrayVectors"]
 	path = SparseArrayVectors.jl
 	url = https://github.com/Sixzero/SparseArrayVectors.jl.git 
