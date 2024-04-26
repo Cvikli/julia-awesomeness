@@ -88,8 +88,8 @@
 	url = https://github.com/Cvikli/RelevanceStacktrace.jl.git
 	branch = main
 [submodule "TGSend"]
-	path = TGSend
-	url = git@github.com:Sixzero/TGSend.git
+	path = TGSend.jl
+	url = git@github.com:Sixzero/TGSend.jl.git
 	branch = master
 [submodule "SparseArrayVectors"]
 	path = SparseArrayVectors.jl
