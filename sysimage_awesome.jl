@@ -79,6 +79,9 @@ Pkg.add(packages)
 
 #%%
 import Pkg
+Pkg.add(Pkg.PackageSpec(url="git@github.com:sixzero/LLMRateLimiters.jl.git"))
+#%%
+import Pkg
 include("PC_config.jl")
 # Pkg.add(Pkg.PackageSpec(path="$(pwd())/MemoizePro/"))
 
@@ -105,25 +108,25 @@ include("PC_config.jl")
 
 own_pkgs = [Pkg.PackageSpec(path="./RelevanceStacktrace.jl")]
 own_pkgs *= [Pkg.PackageSpec(path="./Arithmetics.jl")]
-own_pkgs *= [Pkg.PackageSpec(path="./HwAllocator.jl")]
+# own_pkgs *= [Pkg.PackageSpec(path="./HwAllocator.jl")]
 own_pkgs *= [Pkg.PackageSpec(path="./HTTPUtils.jl")]
-own_pkgs *= [Pkg.PackageSpec(path="./NamedColors.jl")]
-own_pkgs *= [Pkg.PackageSpec(path="./Boilerplate.jl")]
-own_pkgs *= [Pkg.PackageSpec(path="./Tracker.jl")]
-own_pkgs *= [Pkg.PackageSpec(path="./Tensors.jl")]
-own_pkgs *= [Pkg.PackageSpec(path="./RefClosures.jl")]
+# own_pkgs *= [Pkg.PackageSpec(path="./NamedColors.jl")]
+# own_pkgs *= [Pkg.PackageSpec(path="./Boilerplate.jl")]
+# own_pkgs *= [Pkg.PackageSpec(path="./Tracker.jl")]
+# own_pkgs *= [Pkg.PackageSpec(path="./Tensors.jl")]
+# own_pkgs *= [Pkg.PackageSpec(path="./RefClosures.jl")]
 own_pkgs *= [Pkg.PackageSpec(path="./PkgManager.jl")]
-own_pkgs *= [Pkg.PackageSpec(path="./Utils.jl")]
-own_pkgs *= [Pkg.PackageSpec(path="./Unimplemented.jl")]
-own_pkgs *= [Pkg.PackageSpec(path="./InitLoadableStruct.jl")]
-own_pkgs *= [Pkg.PackageSpec(path="./MemoizeTyped.jl")]
-own_pkgs *= [Pkg.PackageSpec(path="./ExtendableStruct.jl")]
-own_pkgs *= [Pkg.PackageSpec(path="./PersistableStruct.jl")]
-own_pkgs *= [Pkg.PackageSpec(path="./Pythonish.jl")]
-own_pkgs *= [Pkg.PackageSpec(path="./UniversalStruct.jl")]
+# own_pkgs *= [Pkg.PackageSpec(path="./Utils.jl")]
+# own_pkgs *= [Pkg.PackageSpec(path="./Unimplemented.jl")]
+# own_pkgs *= [Pkg.PackageSpec(path="./InitLoadableStruct.jl")]
+# own_pkgs *= [Pkg.PackageSpec(path="./MemoizeTyped.jl")]
+# own_pkgs *= [Pkg.PackageSpec(path="./ExtendableStruct.jl")]
+# own_pkgs *= [Pkg.PackageSpec(path="./PersistableStruct.jl")]
+# own_pkgs *= [Pkg.PackageSpec(path="./UniversalStruct.jl")]
+# own_pkgs *= [Pkg.PackageSpec(path="./Pythonish.jl")]
 own_pkgs *= [Pkg.PackageSpec(path="./AsyncTerminal.jl")]
-own_pkgs *= [Pkg.PackageSpec(path="./BinanceAPI.jl")]
-own_pkgs *= [Pkg.PackageSpec(path="./CryptoOHLCV.jl")]
+# own_pkgs *= [Pkg.PackageSpec(path="./BinanceAPI.jl")]
+# own_pkgs *= [Pkg.PackageSpec(path="./CryptoOHLCV.jl")]
 # own_pkgs *= [Pkg.PackageSpec(path="./Optimizers.jl")]
 # own_pkgs *= [Pkg.PackageSpec(path="./Losses.jl")]
 # own_pkgs *= [Pkg.PackageSpec(path="./LazySortedArray.jl")]
@@ -133,6 +136,12 @@ own_pkgs *= [Pkg.PackageSpec(path="./CryptoOHLCV.jl")]
 own_pkgs *= [Pkg.PackageSpec(path="./UnicodePlotsSimple.jl")]
 # own_pkgs *= [Pkg.PackageSpec(path="./ZygoteExtensions.jl")]
 
+own_pkgs *= [Pkg.PackageSpec(path="./../AIStuff/EasyRAGBench.jl")]
+own_pkgs *= [Pkg.PackageSpec(path="./../AIStuff/EasyRAGStore.jl")]
+own_pkgs *= [Pkg.PackageSpec(path="./../EasyContext.jl")]
+own_pkgs *= [Pkg.PackageSpec(path="./../LLMRateLimiters.jl")]
+own_pkgs *= [Pkg.PackageSpec(path="./../TODO4AI/TODO4AI.jl")]
+own_pkgs *= [Pkg.PackageSpec(path="./../AIStuff/AISH.jl")]
 
 
 # own_pkgs *= [Pkg.PackageSpec(path=twin_ai_path * "/PrecompilePkg/")]
